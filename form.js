@@ -25,8 +25,7 @@ const renderList = function () {
   })
 }
 
-const formReference = document.querySelector("form");
-
+const formReference = document.querySelector("form")
 
 formReference.addEventListener("submit", function (e) {
   e.preventDefault()
