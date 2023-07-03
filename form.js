@@ -25,7 +25,8 @@ const renderList = function () {
   })
 }
 
-const formReference = document.querySelector(".submit-button")
+const formReference = document.querySelector("form");
+
 
 formReference.addEventListener("submit", function (e) {
   e.preventDefault()
@@ -37,7 +38,7 @@ formReference.addEventListener("submit", function (e) {
     breedInput.value
   )
 
-  console.log("CONTATTO CREATO", newPet)
+  console.log("PET CREATO", newPet)
 
   petForm.push(newPet)
 
